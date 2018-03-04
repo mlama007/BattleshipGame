@@ -1,6 +1,6 @@
 # BattleShip
+https://mlama007.github.io/BattleshipGame/
 
-Open index.html
 Sink my SHIP!!
 
 Follow instructions of game from:
