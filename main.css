@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: center;   
 }
 
 h1 {
@@ -24,4 +24,35 @@ tr {
 
 td {
     width: 5em;
+}
+
+.tables {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.key, .gameboard {
+    padding: .5em 3em;
+}
+
+/* boat key */
+.key table td {
+    width: 3em;
+}
+.carrier {
+    background-color:green;
+}
+.battleship{
+    background-color:purple;
+}
+.cruiser{
+    background-color: yellow;
+}
+.submarine{
+    background-color: blue;
+}
+.destroyer{
+    background-color: red;
 }

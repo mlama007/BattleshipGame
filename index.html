@@ -6,10 +6,34 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Battleship Game</h1>
-
-    <h2>Battle Ground</h2>
-    <table id="battle_canvas"></table>
+    <h1>Battleship Game</h1>    
+    <div class="tables">
+        <div class="key">
+            <h2>Boats</h2>
+            <table>
+                <tr class="carrier">
+                    <td>Carrier - 5 hits</td>
+                </tr>
+                <tr class="battleship">
+                    <td>Battleship - 4 hits</td>
+                </tr>
+                <tr class="cruiser">
+                    <td>Cruiser - 3 hits</td>
+                </tr>
+                <tr class="submarine">
+                    <td>Submarine - 3 hits</td>
+                </tr>
+                <tr class="destroyer">
+                    <td>Destroyer - 2 hits</td>
+                </tr>
+            </table>
+        </div>
+        <div class="gameboard">
+            <h2>Battle Ground</h2>
+            <h4 class="insertHit">Play</h4>
+            <table id="battle_canvas"></table>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
